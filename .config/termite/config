@@ -3,7 +3,7 @@ allow_bold = true
 audible_bell = false
 clickable_url = true
 dynamic_title = true
-font = Mononoki Nerd Font 12
+font = Iosevka Custom Regular 13
 fullscreen = true
 geometry = 700x520
 icon_name = terminal
@@ -17,7 +17,7 @@ scrollback_lines = -1
 #urgent_on_bell = true
 
 # $BROWSER is used by default if set, with xdg-open as a fallback
-browser = firefox
+browser = brave-nightly
 
 # "system", "on" or "off"
 cursor_blink = on
@@ -44,32 +44,32 @@ cursor_shape = block
 #cursor_foreground = #dcdccc
 
 [colors]
-foreground = #bbc5ff
-foreground_bold = #bbc5ff
-cursor = #bbc5ff
+foreground = #F8F8F2
+foreground_bold = #F8F8F2
+cursor = #F8F8F2
 # background transparency (requires a compositor)
-background = rgba(40, 42, 54, 0.80)
+background = #323F4E
 
 # if unset, will reverse foreground and background
 #highlight = #839496
 
 # colors from color0 to color254 can be set
-color0 = #101010
-color1 = #f07178
-color2 = #c3e88d
-color3 = #ffcb6b
-color4 = #82aaff
-color5 = #c792ea
-color6 = #89ddff
-color7 = #d0d0d0
-color8 = #434758
-color9 = #ff8b92
-color10 = #ddffa7
-color11 = #ffe585
-color12 = #9cc4ff
-color13 = #e1acff
-color14 = #a3f7ff
-color15 = #ffffff
+color0 = #3D4C5F
+color1 = #F48FB1
+color2 = #A1EFD3
+color3 = #F1FA8C
+color4 = #92B6F4
+color5 = #BD99FF
+color6 = #87DFEB
+color7 = #F8F8F2
+color8 = #56687E
+color9 = #EE4F84
+color10 = #53E2AE 
+color11 = #F1FF52 
+color12 = #6498EF 
+color13 = #985EFF 
+color14 = #24D1E7 
+color15 = #E5E5E5 
 
 [hints]
 #foreground = #dcdccc

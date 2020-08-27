@@ -3,28 +3,16 @@
 ## to ~/.ncmpcpp/bindings and set up your preferences   ##
 ##########################################################
 
-# basically(mokny):
-# 1 - Playlist playing rn
-# 2 - Song list (I think it's all the songs in the database)
-# 3 - Search (no regexes tho because uhhhHHHHHHH >>>>??????)
-# 4 - Song list with three columns: left is artist name, middle is album and right is song name
-# 5 - Playlist browser
-# 6 - Simple tag editor
-# 7 - Menu (??i think)
-# 8 - Visualizer
-# 9 - Help
-
-
-### adrian ###
+### elena ###
 def_key "9"
   show_help
 
 # Delete
-def_key "d"
+def_key "D"
   delete_playlist_items
-def_key "d"
+def_key "D"
   delete_browser_items
-def_key "d"
+def_key "D"
   delete_stored_playlist
 
 # Scrolling
@@ -39,52 +27,13 @@ def_key "J"
   select_item
   scroll_down
 
-
 # Search
 def_key "n"
   next_found_item
 def_key "N"
   previous_found_item
 
-def_key "+"
-    show_clock
-
-def_key "="
-    volume_up
-
-def_key "-"
-    volume_down
-
-def_key "ctrl-u"
-    page_up
-
-def_key "ctrl-d"
-    page_down
-
-def_key "h"
-    previous_column
-def_key "l"
-    next_column
-
-def_key "."
-    seek_forward
-def_key ","
-    seek_backward
-
-def_key "k"
-  scroll_up
-
-def_key "j"
-  scroll_down
-
-def_key "g"
-  page_up
-
-def_key "G"
-  page_down
-
-
-### adriab ###
+### elena ###
 
 ##### General rules #####
 ##
