@@ -17,7 +17,10 @@ I am still in the learning phase, hope you all like my work.
 
 **Xmonad Screenshots**
 
-![Xmonad Desktop](/screenshots/xmonadDesktop.png)
-![Xmonad Desktop](/screenshots/xmonad.png)
+![Xmonad Desktop](/screenshots/xmonad1.png)
+![Xmonad Desktop](/screenshots/xmonad2.png)
+![Xmonad Desktop](/screenshots/xmonad3.png)
+![Xmonad Desktop](/screenshots/xmonad4.png)
+![Xmonad Desktop](/screenshots/xmonad5.png)
 
 Thankyou.
