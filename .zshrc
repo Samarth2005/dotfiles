@@ -166,18 +166,16 @@ precmd_functions+=( precmd_vcs_info )
 setopt prompt_subst
 zstyle ':vcs_info:*' enable git
 zstyle ':vcs_info:*' actionformats \
-    '%F{5}(%f%s%F{5})%F{3}-%F{5}[%F{2}%b%F{3}|%F{1}%a%F{5}]%f '
+    '%F{magenta}%s%f%F{magenta}%F{magenta}:%F{5}(%F{2}%b%F{3}|%F{1}%a%F{5})%f '
 zstyle ':vcs_info:*' formats       \
-    '%F{5}(%f%s%F{5})%F{3}-%F{5}[%F{2}%b%F{5}]%f '
+    '%F{magenta}%s%f%F{magenta}%F{magenta}:%F{5}(%F{2}%b%F{5})%f '
 zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat '%b%F{1}:%F{3}%r'
 precmd () { vcs_info }
 
-PROMPT=' %(?.%F{green}%B✔%f%b.%F{red}%B✘ %?)%f%b  %U%B%F{blue}%0~%f%b%u ${vcs_info_msg_0_}
-%F{cyan}%(!.!⟫.❱)%f '
-
-RPROMPT='%F{yellow}%n@%M%f%E'
+PROMPT=' %B%(?.%F{green}◆%f.%F{red}✖ %?)%f %U%F{green}%0~%f%u ${vcs_info_msg_0_}%F{magenta}❯%f%F{green}❯❯%f%b '
 
 source /home/samarth/.config/broot/launcher/bash/br
 
 source /home/samarth/.zsh_profile
 
+/opt/shell-color-scripts/colorscript.sh random

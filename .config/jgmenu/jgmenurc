@@ -1,0 +1,20 @@
+menu_height_min = 200
+menu_width = 200
+menu_border = 3
+icon_size = 50
+item_height = 50
+position_mode = pointer
+icon_theme = Papirus
+icon_text_spacing = 30
+menu_radius = 25
+item_radius = 25
+menu_padding_top = 50
+menu_width = 250
+menu_padding_left = 10
+hover_delay = 10
+terminal_exec = urxvt
+
+color_menu_bg = #292F3A
+color_menu_border = #E9E9F4
+color_norm_fg = #FEFEFE
+color_sel_bg = #5293E1
